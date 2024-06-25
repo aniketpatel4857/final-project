@@ -74,6 +74,7 @@ nav svg{
     width: 8%;
     position: relative;
     left: -3%;
+    /* mix-blend-mode: exclusion; */
     padding: 2vw 0vw; 
     /* background-color: red; */
 }
@@ -350,5 +351,14 @@ overflow: hidden;
 @media (max-width: 600px) {
     body{
         overflow: hidden;
+    }
+    .nav-part2{
+        margin-left: 90vw;
+    }
+    #container>.card{
+        height: 40vh;
+    }
+    #string{
+        display: none;
     }
 }

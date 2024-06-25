@@ -36,7 +36,7 @@ function locomotiveAnimation() {
 
 }
 
-// locomotiveAnimation()
+locomotiveAnimation()
 
 function cursorAnimation() {
 
